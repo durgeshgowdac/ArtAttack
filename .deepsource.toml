@@ -1,0 +1,54 @@
+version = 1
+
+[[analyzers]]
+name = "csharp"
+enabled = true
+
+  [analyzers.meta]
+  # Use the Unity version of the C# analyzer if available, otherwise standard C#
+  runtime_version = "net8.0"
+  solution_path = "ArtAttack.sln"
+
+  # Exclude Unity-generated folders and large asset directories
+  exclude_paths = [
+    "Assets/Plugins",
+    "Assets/Editor",
+    "Library",
+    "Temp",
+    "Obj",
+    "Build",
+    "Logs",
+    "UserSettings"
+  ]
+
+  # Enable Unity-specific analyzers if supported
+  analyzers = [
+    "unity",
+    "style",
+    "security"
+  ]
+
+[[analyzers]]
+name = "dependency"
+enabled = true
+
+  [analyzers.meta]
+  # Scan for vulnerable packages (including Unity packages)
+  scan_dev_dependencies = true
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+  [analyzers.meta]
+  # Exclude Unity asset files which may contain common false positives
+  exclude_paths = [
+    "*.asset",
+    "*.prefab",
+    "*.meta"
+  ]
+
+# Optional: Enable Git LFS for large asset handling (if using DeepSource CI)
+[transformers]
+name = "git-lfs"
+enabled = true

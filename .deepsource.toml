@@ -1,25 +1,23 @@
 version = 1
 
+exclude_patterns = [
+    "Assets/Plugins/**",
+    "Assets/Editor/**",
+    "Library/**",
+    "Temp/**",
+    "Obj/**",
+    "Build/**",
+    "Logs/**",
+    "UserSettings/**"
+]
+
 [[analyzers]]
 name = "csharp"
 enabled = true
 
   [analyzers.meta]
-  solution_path = "ArtAttack.sln"
-  exclude_paths = [
-    "Assets/Plugins",
-    "Assets/Editor",
-    "Library",
-    "Temp",
-    "Obj",
-    "Build",
-    "Logs",
-    "UserSettings"
-  ]
-
-[[analyzers]]
-name = "dependency"
-enabled = true
+  # Optional: adjust complexity threshold (low, medium, high, very-high, critical)
+  cyclomatic_complexity_threshold = "medium"
 
 [[analyzers]]
 name = "secrets"

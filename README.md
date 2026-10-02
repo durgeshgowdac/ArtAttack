@@ -29,9 +29,8 @@ Explore a pristine, stylized art gallery — then break the rules.
 - 🖼️ **Paint directly on gallery walls** with realistic splattering effects
 - 🚶‍♀️ **Navigate** the gallery using standard FPS controls
 
-The gallery is yours alone. There are no guards and no security, just you, the paint, and the clock:
-- ⏰ **Time pressure** adds tension to your artistic rebellion
-- 🏁 **Game over screen** when your time is up
+The gallery is yours alone. There are no guards and no security, just you, the paint:
+- 🏁 **Game over screen** on quiting
 - 🔄 **Return to the main menu** to create new (illegal) masterpieces
 
 ---

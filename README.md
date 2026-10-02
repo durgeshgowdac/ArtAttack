@@ -13,9 +13,9 @@ ArtAttack is a satirical, first-person art gallery vandalism simulator built in 
 The game is inspired by the work of **Lee Bae**, the artist known for creating monochromatic pieces with charcoal. ArtAttack takes that stark, charcoal-driven aesthetic, adds a splash of color, and then lets you vandalize the whole place.
 
 <p align="center">
-  <img src="MainMenu.png" width="80%" alt="Main Menu"/>
-  <img src="GamePlay.png" width="80%" alt="Gameplay"/>
-  <img src="GameOver.png" width="80%" alt="Game Over"/>
+  <img src="MainMenu.png" width="32%" alt="Main Menu"/>
+  <img src="GamePlay.png" width="32%" alt="Gameplay"/>
+  <img src="GameOver.png" width="32%" alt="Game Over"/>
 </p>
 
 ---

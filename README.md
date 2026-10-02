@@ -6,9 +6,11 @@
 ![Build](https://img.shields.io/badge/version-1.0-green)
 ![Status](https://img.shields.io/badge/status-Beta-yellow)
 
-### **Creativity isn't a crime… but be careful here.**
+### **Creativity isn't a crime… but it does make a mess.**
 
 ArtAttack is a satirical, first-person art gallery vandalism simulator built in Unity. You're alone in a high-end exhibit, armed with paint and an uncontrollable urge to make things… messier.
+
+The game is inspired by the work of **Lee Bae**, the artist known for creating monochromatic pieces with charcoal. ArtAttack takes that stark, charcoal-driven aesthetic, adds a splash of color, and then lets you vandalize the whole place.
 
 <p align="center">
   <img src="MainMenu.png" width="80%" alt="Main Menu"/>
@@ -27,10 +29,10 @@ Explore a pristine, stylized art gallery — then break the rules.
 - 🖼️ **Paint directly on gallery walls** with realistic splattering effects
 - 🚶‍♀️ **Navigate** the gallery using standard FPS controls
 
-But beware — your actions have consequences:
-- 🚓 **Get caught** by security and face custom game-over screens
-- 🔄 **Return to the main menu** to create new (illegal) masterpieces
+The gallery is yours alone. There are no guards and no security, just you, the paint, and the clock:
 - ⏰ **Time pressure** adds tension to your artistic rebellion
+- 🏁 **Game over screen** when your time is up
+- 🔄 **Return to the main menu** to create new (illegal) masterpieces
 
 ---
 
@@ -171,16 +173,9 @@ ArtAttack/
 ### 🔍 Understanding the Paint System
 The core painting functionality uses:
 - **Raycast detection** to identify paintable surfaces
-- **Texture blending** to apply paint in real-time
+- **Decal projection** to apply paint in real-time
 - **Mesh colliders** on gallery walls for precise hit detection
 - **Custom shaders** for realistic paint appearance and dripping effects
-
-### 🤖 Security AI System
-The security system includes:
-- **Line-of-sight calculations** using raycasting
-- **Patrol routes** with waypoint navigation
-- **Alert states** that escalate based on player behavior
-- **Dynamic difficulty** that adjusts detection sensitivity
 
 ---
 
@@ -197,7 +192,6 @@ The security system includes:
 ### Manual Testing Checklist
 - [ ] All UI elements respond correctly
 - [ ] Paint system works on all gallery surfaces
-- [ ] Security detection triggers appropriately
 - [ ] Game over sequences play correctly
 - [ ] Audio levels are balanced
 - [ ] Performance maintains 30+ FPS on target hardware
@@ -325,7 +319,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 Thanks to our brave early vandals who helped refine the experience!
 
 ### Artistic Inspiration
-- Lee Bae’s monochromatic works and exploration of materiality through charcoal
+- **Lee Bae** - his monochromatic works and exploration of materiality through charcoal inspired the game's look; ArtAttack adds color to that charcoal world and then vandalizes it
 - Classic art gallery experiences that needed more chaos
 - Street art culture and creative rebellion
 - Games that let players break the rules in creative ways

@@ -18,6 +18,12 @@ The game is inspired by the work of **Lee Bae**, the artist known for creating m
   <img src="GameOver.png" width="32%" alt="Game Over"/>
 </p>
 
+## Demo
+
+<video src="https://github.com/user-attachments/assets/29897fb1-16e6-4a99-aa51-cbf01fb70849" controls width="720">
+  Your browser does not support inline video.
+</video>
+
 ---
 
 ## 🕹️ Gameplay
